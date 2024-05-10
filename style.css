@@ -1,0 +1,40 @@
+body {
+    font-family: 'Open Sans', sans-serif;
+    
+    color:black;
+    text-align: center;
+    padding: 1rem;
+    background-color: grey;
+}
+
+header{
+    padding: 1rem 2rem 4rem;
+    font-size: xx-large;
+}
+
+#container {
+    max-width: 800px;
+    max-height: 800px;
+   
+    margin: auto auto; 
+    border: 12px solid black;
+    overflow: hidden;
+}
+
+row {
+    display: flex;
+}
+column {
+    background-color: white;
+    padding: 1rem 0;
+    flex: 1 1;
+    border: 1px solid black;
+    align-items: center;
+}
+
+btn {
+   
+    background-color: red;
+    border: 1px solid black;
+    flex:1;
+}
